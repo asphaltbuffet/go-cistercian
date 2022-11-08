@@ -14,7 +14,7 @@
     // gopls
     "go.useLanguageServer": true,
     "gopls": {
-        "formatting.local": "github.com/asphaltbuffet/seed",
+        "formatting.local": "github.com/asphaltbuffet/go-cistercian",
         "formatting.gofumpt": true
     },
     // golangci-lint  

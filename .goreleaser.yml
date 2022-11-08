@@ -16,10 +16,10 @@ archives:
         format: zip
 dockers:
   - image_templates:
-    - "ghcr.io/asphaltbuffet/seed:latest"
-    - "ghcr.io/asphaltbuffet/seed:{{ .Major }}"
-    - "ghcr.io/asphaltbuffet/seed:{{ .Major }}.{{ .Minor }}"
-    - "ghcr.io/asphaltbuffet/seed:{{ .Major }}.{{ .Minor }}.{{ .Patch }}"
+    - "ghcr.io/asphaltbuffet/go-cistercian:latest"
+    - "ghcr.io/asphaltbuffet/go-cistercian:{{ .Major }}"
+    - "ghcr.io/asphaltbuffet/go-cistercian:{{ .Major }}.{{ .Minor }}"
+    - "ghcr.io/asphaltbuffet/go-cistercian:{{ .Major }}.{{ .Minor }}.{{ .Patch }}"
     build_flag_templates:
     - "--pull"
     # OCI annotations: https://github.com/opencontainers/image-spec/blob/main/annotations.md

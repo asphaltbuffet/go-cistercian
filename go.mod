@@ -1,3 +1,3 @@
-module github.com/asphaltbuffet/seed
+module github.com/asphaltbuffet/go-cistercian
 
-go 1.18
+go 1.19
