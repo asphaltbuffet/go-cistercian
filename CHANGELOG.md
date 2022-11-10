@@ -1,7 +1,9 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- FORMATTING CHEATSHEET:
 ## [M.m.p] - yyyy-mm-dd
@@ -13,25 +15,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Fixed - for any bug fixes.
 ### Security - in case of vulnerabilities. 
 
-[Unreleased]: https://github.com/asphaltbuffet/seed/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/asphaltbuffet/seed/compare/v0.0.1...v1.0.0
-[0.0.1]: https://github.com/asphaltbuffet/seed/releases/tag/v0.0.1
+[Unreleased]: https://github.com/asphaltbuffet/go-cistercian/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/asphaltbuffet/go-cistercian/compare/v0.0.1...v1.0.0
+[0.0.1]: https://github.com/asphaltbuffet/go-cistercian/releases/tag/v0.0.1
 -->
 
 ## [Unreleased]
 
-## [1.0.0] - 2022-06-20
+## [0.0.1] - 2022-11-07
 
-Forked from [golang-templates/seed](https://github.com/golang-templates/seed/releases/tag/v0.15.0)
+### Added
 
-### Changed
+- Initial functionality
 
-- Switched docker image from go1.16 to go1.18
-- Renamed module paths to match forked repo
-- Updated build directive to satisfy formatting rules `//go:build tools`
-- Replace email address in the [Code of Conduct](CODE_OF_CONDUCT.md)
-- Updated Code of Conduct to v2.1
-
-
-[Unreleased]: https://github.com/asphaltbuffet/seed/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/asphaltbuffet/seed/releases/tag/v1.0.0
+[Unreleased]: https://github.com/asphaltbuffet/go-cistercian/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/asphaltbuffet/go-cistercian/releases/tag/v0.0.1

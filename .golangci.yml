@@ -7,7 +7,7 @@ linters-settings:
   gocyclo:
     min-complexity: 15
   goimports:
-    local-prefixes: github.com/asphaltbuffet/seed
+    local-prefixes: github.com/asphaltbuffet/go-cistercian
   govet:
     check-shadowing: true
   misspell:

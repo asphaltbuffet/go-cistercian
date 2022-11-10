@@ -1,12 +1,10 @@
-// Application which greets you.
+// Application to generate Cistercian numbers.
 package main
 
-import "fmt"
+import (
+	"github.com/asphaltbuffet/go-cistercian/cmd"
+)
 
 func main() {
-	fmt.Println(greet())
-}
-
-func greet() string {
-	return "Hi!"
+	cmd.Execute()
 }

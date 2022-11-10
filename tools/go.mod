@@ -1,6 +1,6 @@
-module github.com/asphaltbuffet/seed/build
+module github.com/asphaltbuffet/go-cistercian/build
 
-go 1.18
+go 1.19
 
 require (
 	github.com/client9/misspell v0.3.4
